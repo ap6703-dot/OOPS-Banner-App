@@ -4,7 +4,7 @@
  * in a single statement using String.join() method.
  */
 
-public class OOPSBannerApp {
+public class UC5 {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,6 @@ public class OOPSBannerApp {
             String.join(" ", " *** ", " *** ", " *****", " *****")
         };
 
-        // Enhanced for-loop to print banner
         for (String line : lines) {
             System.out.println(line);
         }
